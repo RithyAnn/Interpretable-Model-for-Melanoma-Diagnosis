@@ -58,7 +58,7 @@ Can find that this instance has the nearist distance with the 7th prototypes whi
 </p>
 The final classification result from the model.
 
-## Adjustment
+## Adjustment(A Part)
 **Distance Strategy**
 <p align="center">
   <img src="presentation/euclidean.png" width="190">
@@ -66,7 +66,7 @@ The final classification result from the model.
 Model performance when using euclidean distance
 
 <p align="center">
-  <img src="presentation/squareeuclidean.png" width="200">
+  <img src="presentation/squareeuclidean.png" width="210">
 </p>
 Model performance when using square euclidean distance
 
