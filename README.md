@@ -66,7 +66,7 @@ The final classification result from the model.
 Model performance when using euclidean distance
 
 <p align="center">
-  <img src="presentation/squareeuclidean.png" width="190">
+  <img src="presentation/squareeuclidean.png" width="200">
 </p>
 Model performance when using square euclidean distance
 
