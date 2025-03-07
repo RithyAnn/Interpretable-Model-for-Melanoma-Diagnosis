@@ -23,38 +23,38 @@ The model consists of:
 ## Presentation
 
 <p align="center">
-  <img src="presentation/reconstruction.png" width="500">
+  <img src="presentation/reconstruction.png" width="390">
 </p>
 Original Images and Reconstructed images, the first row indicates original images, the second row indicate reconstructed images
 
 <p align="center">
-  <img src="presentation/prototype.png" width="500">
+  <img src="presentation/prototype.png" width="390">
 </p>
 The prototype images provide an intuitive visual reference to help understand the clustering and distribution of the model in the input space
 
 <p align="center">
-  <img src="presentation/weight.png" width="500">
+  <img src="presentation/weight.png" width="390">
 </p>
 The first row are the prototype images for the last epoch during training the model. The second and third rows are their weights for category 0 and 1(0 means not melanoma, 1 means melanoma)
 
 ## Instance
 <p align="center">
-  <img src="presentation/original.png" width="200">
+  <img src="presentation/original.png" width="100">
 </p>
 Melanoma original image
 
 <p align="center">
-  <img src="presentation/decoder.png" width="200">
+  <img src="presentation/decoder.png" width="100">
 </p>
 Melanoma decoder images
 
 <p align="center">
-  <img src="presentation/distance.png" width="500">
+  <img src="presentation/distance.png" width="550">
 </p>
 Distance between feature vectors and each prototype vector for above melanoma sample. The first row are prototype images. The second row are distances from prototype vectors to each input vector. The third row are distances from feature vectors to each prototype vector for the melanoma sample.
 Can find that this instance has the nearist distance with the 7th prototypes which belongs to category melanoma.
 
 <p align="center">
-  <img src="presentation/result.png" width="300">
+  <img src="presentation/result.png" width="190">
 </p>
 The final classification result from the model.
