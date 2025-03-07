@@ -63,22 +63,22 @@ The final classification result from the model.
 <p align="center">
   <img src="presentation/euclidean.png" width="190">
 </p>
-Model performance when using
+Model performance when using euclidean distance
 
 <p align="center">
   <img src="presentation/squareeuclidean.png" width="190">
 </p>
-Model performance when using
+Model performance when using square euclidean distance
 
 <p align="center">
   <img src="presentation/Chebyshev.png" width="190">
 </p>
-Model performance when using
+Model performance when using Chebyshev distance
 
 <p align="center">
   <img src="presentation/Manhattan.png" width="190">
 </p>
-Model performance when using
+Model performance when using Manhattan distance
 
 The reconstructed prototype image is most similar to the original image when using Euclidean distance and square Euclidean distance. However, most of the images look very similar to each other.
 when using Chebyshev distance, the prototype images show significant differences from the original images, which makes it challenging to observe feature clustering. However, each prototype image is different from each other.
@@ -86,6 +86,6 @@ when using Chebyshev distance, the prototype images show significant differences
 <p align="center">
   <img src="presentation/mix.png" width="190">
 </p>
-Model performance when using
+Model performance when using Mixed distance strategy, combing by Chebyshev and Euclidean distance
 Chebyshev distance is used to calculate the distance from the feature vector to each prototype vector (R1)
 Euclidean distance is chosen to calculate the distance from the prototype vector to each input vector (R2)
