@@ -1,10 +1,26 @@
-# Interpretable-Model-for-Melanoma-Diagnosis
+# Interpretable Prototype-Based Autoencoder for Melanoma Diagnosis  
 
-This project presents a prototype-based autoencoder designed for melanoma detection, integrating feature importance with example-based explanations to enhance interpretability.
+This project presents an **interpretable deep learning model** for melanoma detection, combing **autoencoders** with **prototype-network**. The model realize transparency by visaulizing feature representations and prototype images and explain its decision-making by similarity calculating.
 
-**Key Features:**
-Enhanced Architecture: Optimized network structure, distance strategies, and parameter selection improve model performance and applicability.
-Iterative Optimization: Fine-tunes parameters based on model loss and prototype image quality for optimal results.
-Interpretable Representation: Extracts and visualizes feature and prototype vectors, with decoder layers reconstructing key features and prototype images to illustrate clustering.
-Instance-Based Explanations: Decisions are supported by reconstructed prototype images, providing a transparent and explainable melanoma detection process.
-This model bridges deep learning and interpretability, offering a more transparent, reliable, and practically applicable approach to AI-driven melanoma diagnosis.
+## Features  
+- **Prototype-Based Autoencoder**: Combines autoencoder architecture with prototype learning for better interpretability.  
+- **Feature Visualization**: Extracts and reconstructs key features, allowing insight into decision-making.  
+- **Example-Based Explanations**: Uses prototype images to illustrate classification typical categories.  
+- **Optimized Distance Strategies**: Implements multiple distance strategy (Euclidean, Manhattan, etc.) for improved performance and transparency.  
+- **Dataset**: Designed for **melanoma detection** using the **ISIC2018 dataset**.  
+
+## Model Architecture  
+The model consists of:  
+- **An Autoencoder Network**: Performs **feature extraction** and **reconstruction**.  
+- **A Prototype Network**: Learns representative prototypes and classifies images based on similarity.  
+- **Distance-Based Similarity Measures**: Optimizes classification and presentation using multiple distance strategies.  
+
+## Dataset  
+- **ISIC2018 Dataset**: 11,720 dermoscopic images  
+- **Classes**: Melanoma (1,305 images) & Non-Melanoma (10,415 images)  
+- **Preprocessing**: Image resizing, augmentation, and oversampling for class balance  
+
+<p align="center">
+  <img src="assets/model_architecture.png" width="600">
+</p>
+
