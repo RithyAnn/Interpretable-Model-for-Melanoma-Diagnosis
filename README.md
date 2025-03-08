@@ -1,4 +1,4 @@
-# Interpretable Prototype-Based Autoencoder for Melanoma Diagnosis  
+# Interpretable Prototype-Based Autoencoder for Melanoma Diagnosis (Under construction)
 
 This project presents an **interpretable deep learning model** for melanoma detection, combing **autoencoders** with **prototype-network**. The model realize transparency by visaulizing feature representations and prototype images and explain its decision-making by similarity calculating.
 
